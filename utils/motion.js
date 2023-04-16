@@ -36,7 +36,7 @@ export const fadeIn = (
         type: type,
         delay: delay,
         duration: duration,
-        ease: "easeOut",
+        ease: "easeInOut",
       },
     },
   };

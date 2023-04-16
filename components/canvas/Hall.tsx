@@ -38,7 +38,7 @@ const HallCanvas = ({ number }: { number: number }) => {
 			dpr={[1, 2]}
 			camera={{ position: [100, 0, 30], fov: 100 }}
 			gl={{ preserveDrawingBuffer: true }}
-			className="w-[100vw] h-[100vh]"
+			// className="w-[100vw] h-[100vh]"
 		>
 			<Suspense fallback={<CanvasLoader />}>
 				<OrbitControls

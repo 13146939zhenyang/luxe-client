@@ -1,4 +1,4 @@
 export const navbar = [
-	{name: 'description', position: '#description'},
-	{name: 'requirement', position: '#requirement'},
+	{name: 'brands', position: '#brands'},
+	{name: 'query', position: '#query'},
 ]

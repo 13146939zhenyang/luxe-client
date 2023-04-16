@@ -35,12 +35,17 @@ export default function Home() {
 					<Hall number={number} />
 				</div>
 				<div className='bg-black bg-opacity-[0.4] w-full h-full absolute top-0 left-0 z-20'>
-					{render && <section className='w-full sticky top-0 left-0 z-30 py-10'>
-						<Header />
-					</section>}
+					{render && <>
+						<section className='w-full sticky top-0 left-0 z-30 py-10'>
+							<Header />
+						</section>
+						<div className='bg-white lg:max-w-[1200px] lg:mx-auto w-full px-4'>
+1
+						</div>
+					</>}
 				</div>
-				<section className='h-[100vh]' id="description"></section>
-				<section className='h-[100vh]' id="requirement"></section>
+				<section className='h-[100vh]' id="brands"></section>
+				<section className='h-[100vh]' id="query"></section>
 			</main>
 		</>
 	)
